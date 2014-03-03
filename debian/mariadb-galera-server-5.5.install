@@ -1,6 +1,5 @@
 usr/sbin/mysqld
 usr/lib/mysql/plugin/ha_innodb.so
-usr/lib/mysql/plugin/ha_oqgraph.so
 usr/lib/mysql/plugin/sphinx.so
 usr/lib/mysql/plugin/auth_socket.so
 usr/lib/mysql/plugin/auth_pam.so
@@ -8,7 +7,6 @@ usr/lib/mysql/plugin/semisync_master.so
 usr/lib/mysql/plugin/semisync_slave.so
 usr/lib/mysql/plugin/handlersocket.so
 usr/lib/mysql/plugin/sql_errlog.so
-usr/lib/libhsclient.so.*
 etc/mysql/debian-start
 etc/mysql/conf.d/mysqld_safe_syslog.cnf
 usr/bin/msql2mysql
@@ -46,7 +44,6 @@ usr/share/doc/mariadb-galera-server-5.5/mysqld.sym.gz
 usr/share/doc/mariadb-galera-server-5.5/INFO_SRC
 usr/share/doc/mariadb-galera-server-5.5/INFO_BIN
 usr/share/doc/mariadb-galera-server-5.5/README-wsrep
-usr/share/lintian/overrides/mariadb-galera-server-5.5
 usr/share/man/man1/msql2mysql.1
 usr/share/man/man1/myisamchk.1
 usr/share/man/man1/myisam_ftdump.1
