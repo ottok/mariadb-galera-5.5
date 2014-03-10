@@ -2,6 +2,8 @@ mariadb-galera-5.5 (5.5.35-1) unstable; urgency=low
 
   * New packaging for Galera based on MariaDB 5.5.35 in Debian official
   * Intended for inclusion into Debian (Closes: #740472)
+  * d/control: Update for use of virtual-* packages for switching to/from
+    MySQL alternatives.
 
  -- Otto Kekäläinen <otto@seravo.fi>  Sun, 02 Mar 2014 00:38:06 +0200
- 
+
